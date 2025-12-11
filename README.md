@@ -1,92 +1,125 @@
-📱 Target Ibadah Harian - Mobile App
-Show Image Show Image Show Image
+# 📱 Target Ibadah Harian - Mobile App
+
 Aplikasi gamifikasi untuk tracking dan motivasi ibadah harian umat Muslim. Fitur utama mencakup jadwal sholat real-time, tracking bacaan Al-Qur'an, dzikir counter, pencatatan sedekah, dan sistem poin & level untuk meningkatkan konsistensi ibadah.
-________________________________________
-📋 Daftar Isi
-•	Fitur Utama
-•	Teknologi & API
-•	Endpoint API yang Digunakan
-•	Arsitektur Aplikasi
-•	Cara Instalasi
-•	Panduan Penggunaan
-•	Pengembang
-________________________________________
-✨ Fitur Utama
-🕌 Jadwal Sholat Real-Time
-•	Menampilkan 5 waktu sholat harian berdasarkan lokasi pengguna
-•	Countdown otomatis ke sholat berikutnya (update setiap detik)
-•	Support 8+ kota besar di Indonesia
-•	Data diambil dari Aladhan Prayer Times API
-📖 Tracking Bacaan Al-Qur'an
-•	Daftar lengkap 114 surah dengan teks Arab, transliterasi, dan terjemahan Indonesia
-•	Progress bar untuk setiap surah
-•	Auto-save progress saat scroll
-•	Data diambil dari Quran API by Gading Dev
-📿 Dzikir Counter (Tasbih Digital)
-•	Counter digital untuk berbagai jenis dzikir
-•	Support Subhanallah, Alhamdulillah, Allahu Akbar, dll
-•	Rekomendasi jumlah per dzikir
-•	Auto-save counter
-💰 Tracking Sedekah
-•	Pencatatan sedekah dengan kategori
-•	Total sedekah bulan berjalan
-•	History lengkap dengan tanggal
-•	Disimpan di Firebase Firestore
-🎯 Manajemen Target Ibadah
-•	CRUD target ibadah (Create, Read, Update, Delete)
-•	Filter berdasarkan kategori
-•	Search target
-•	Set tanggal target spesifik
-•	Disimpan di Firebase Firestore
-🏆 Sistem Gamifikasi
-•	Level & Points system
-•	Streak tracking (konsistensi harian)
-•	Achievement badges
-•	Progress chart 7 hari terakhir
-•	Statistik per kategori ibadah
-🌓 Dark Mode Support
-•	Toggle dark/light theme
-•	Persist preference ke SharedPreferences
-🔔 Notification System
-•	Reminder waktu sholat (5x sehari)
-•	Motivasi harian (4x sehari)
-•	Custom notification schedule
-________________________________________
-🛠 Teknologi & API
-Framework & State Management
-•	Flutter 3.4.3 - Cross-platform mobile framework
-•	Provider - State management
-•	Dart 3.x - Programming language
-Backend & Database
-•	Firebase Authentication - User authentication
-•	Cloud Firestore - NoSQL database untuk targets & sedekah
-•	SharedPreferences - Local storage untuk settings & cache
-HTTP & API Integration
-•	http ^1.1.0 - HTTP client untuk API calls
-•	dio (optional) - Alternative HTTP client
-External APIs
-1.	Aladhan Prayer Times API 
-o	Endpoint: https://api.aladhan.com/v1
-o	Purpose: Jadwal sholat berdasarkan lokasi
-2.	Quran API by Gading Dev 
-o	Endpoint: https://api.quran.gading.dev
-o	Purpose: Data Al-Qur'an lengkap dengan terjemahan
-Libraries Lainnya
-•	intl - Internationalization & date formatting
-•	flutter_local_notifications - Local push notifications
-•	timezone - Timezone handling untuk notifications
-•	shared_preferences - Local data persistence
-________________________________________
-🌐 Endpoint API yang Digunakan
-1. Aladhan Prayer Times API
-Get Prayer Times by City
+
+---
+
+## 📋 Daftar Isi
+
+- [Fitur Utama](#-fitur-utama)
+- [Teknologi & API](#-teknologi--api)
+- [Endpoint API yang Digunakan](#-endpoint-api-yang-digunakan)
+- [Arsitektur Aplikasi](#-arsitektur-aplikasi)
+- [Cara Instalasi](#-cara-instalasi)
+- [Panduan Penggunaan](#-panduan-penggunaan)
+- [Testing Results](#-testing-results)
+- [Pengembang](#-pengembang)
+
+---
+
+## ✨ Fitur Utama
+
+### 🕌 Jadwal Sholat Real-Time
+- Menampilkan 5 waktu sholat harian berdasarkan lokasi pengguna
+- Countdown otomatis ke sholat berikutnya (update setiap detik)
+- Support 8+ kota besar di Indonesia
+- Data diambil dari Aladhan Prayer Times API
+
+### 📖 Tracking Bacaan Al-Qur'an
+- Daftar lengkap 114 surah dengan teks Arab, transliterasi, dan terjemahan Indonesia
+- Progress bar untuk setiap surah
+- Auto-save progress saat scroll
+- Data diambil dari Quran API by Gading Dev
+
+### 📿 Dzikir Counter (Tasbih Digital)
+- Counter digital untuk berbagai jenis dzikir
+- Support Subhanallah, Alhamdulillah, Allahu Akbar, dll
+- Rekomendasi jumlah per dzikir
+- Auto-save counter
+
+### 💰 Tracking Sedekah
+- Pencatatan sedekah dengan kategori
+- Total sedekah bulan berjalan
+- History lengkap dengan tanggal
+- Disimpan di Firebase Firestore
+
+### 🎯 Manajemen Target Ibadah
+- CRUD target ibadah (Create, Read, Update, Delete)
+- Filter berdasarkan kategori
+- Search target
+- Set tanggal target spesifik
+- Disimpan di Firebase Firestore
+
+### 🏆 Sistem Gamifikasi
+- Level & Points system
+- Streak tracking (konsistensi harian)
+- Achievement badges
+- Progress chart 7 hari terakhir
+- Statistik per kategori ibadah
+
+### 🌓 Dark Mode Support
+- Toggle dark/light theme
+- Persist preference ke SharedPreferences
+
+### 🔔 Notification System
+- Reminder waktu sholat (5x sehari)
+- Motivasi harian (4x sehari)
+- Custom notification schedule
+
+---
+
+## 🛠 Teknologi & API
+
+### Framework & State Management
+- **Flutter 3.4.3** - Cross-platform mobile framework
+- **Provider** - State management
+- **Dart 3.x** - Programming language
+
+### Backend & Database
+- **Firebase Authentication** - User authentication
+- **Cloud Firestore** - NoSQL database untuk targets & sedekah
+- **SharedPreferences** - Local storage untuk settings & cache
+
+### HTTP & API Integration
+- **http ^1.1.0** - HTTP client untuk API calls
+- **dio** (optional) - Alternative HTTP client
+
+### External APIs
+
+1. **[Aladhan Prayer Times API](https://aladhan.com/prayer-times-api)**
+   - Endpoint: `https://api.aladhan.com/v1`
+   - Purpose: Jadwal sholat berdasarkan lokasi
+
+2. **[Quran API by Gading Dev](https://github.com/gadingnst/quran-api)**
+   - Endpoint: `https://api.quran.gading.dev`
+   - Purpose: Data Al-Qur'an lengkap dengan terjemahan
+
+### Libraries Lainnya
+- **intl** - Internationalization & date formatting
+- **flutter_local_notifications** - Local push notifications
+- **timezone** - Timezone handling untuk notifications
+- **shared_preferences** - Local data persistence
+
+---
+
+## 🌐 Endpoint API yang Digunakan
+
+### 1. Aladhan Prayer Times API
+
+#### Get Prayer Times by City
+
+```http
 GET https://api.aladhan.com/v1/timingsByCity/{date}
-Parameters:
-•	city (string) - Nama kota (contoh: "Malang")
-•	country (string) - Nama negara (contoh: "Indonesia")
-•	method (int) - Calculation method (default: 20 - ISNA)
-Response Example:
-json
+```
+
+**Parameters:**
+- `city` (string) - Nama kota (contoh: "Malang")
+- `country` (string) - Nama negara (contoh: "Indonesia")
+- `method` (int) - Calculation method (default: 20 - ISNA)
+
+**Response Example:**
+
+```json
 {
   "code": 200,
   "status": "OK",
@@ -108,8 +141,11 @@ json
     }
   }
 }
-Implementasi:
-dart
+```
+
+**Implementasi:**
+
+```dart
 // File: lib/services/prayer_api_service.dart
 static Future<PrayerTime?> getPrayerTimesByCity({
   required String city,
@@ -127,19 +163,24 @@ static Future<PrayerTime?> getPrayerTimesByCity({
 ```
 
 #### Get Monthly Prayer Times
-```
+
+```http
 GET https://api.aladhan.com/v1/calendarByCity/{year}/{month}
 ```
 
 ---
 
-### 2. **Quran API by Gading Dev**
+### 2. Quran API by Gading Dev
 
 #### Get All Surah List
-```
+
+```http
 GET https://api.quran.gading.dev/surah
-Response Example:
-json
+```
+
+**Response Example:**
+
+```json
 {
   "code": 200,
   "data": [
@@ -159,11 +200,13 @@ json
         "id": "Mekkah"
       }
     }
-    // ... 113 surah lainnya
   ]
 }
-Implementasi:
-dart
+```
+
+**Implementasi:**
+
+```dart
 // File: lib/services/quran_api_service.dart
 static Future<List<Map<String, dynamic>>> getAllSurah() async {
   final url = Uri.parse('$_baseUrl/surah');
@@ -180,10 +223,14 @@ static Future<List<Map<String, dynamic>>> getAllSurah() async {
 ```
 
 #### Get Surah Detail with Verses
-```
+
+```http
 GET https://api.quran.gading.dev/surah/{surahNumber}
-Response Example:
-json
+```
+
+**Response Example:**
+
+```json
 {
   "code": 200,
   "data": {
@@ -209,7 +256,6 @@ json
           "primary": "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/1"
         }
       }
-      // ... ayat lainnya
     ]
   }
 }
@@ -220,6 +266,7 @@ json
 ## 🏗 Arsitektur Aplikasi
 
 ### Layer Architecture
+
 ```
 lib/
 ├── models/              # Data models
@@ -268,6 +315,7 @@ lib/
 ```
 
 ### State Management Flow
+
 ```
 User Action (Tap Button)
     ↓
@@ -282,8 +330,11 @@ HTTP Response → JSON Parsing → Model
 Provider notifyListeners()
     ↓
 Screen Rebuild (Show Data)
-Error Handling Strategy
-dart
+```
+
+### Error Handling Strategy
+
+```dart
 // Contoh di prayer_api_service.dart
 static Future<PrayerTime?> getPrayerTimesByCity({
   required String city,
@@ -319,8 +370,11 @@ static Future<PrayerTime?> _getFallbackPrayerTimes() async {
     // ... default times
   );
 }
-Asynchronous UI Pattern
-dart
+```
+
+### Asynchronous UI Pattern
+
+```dart
 // Menggunakan FutureBuilder
 FutureBuilder<List<Map<String, dynamic>>>(
   future: QuranApiService.getAllSurah(),
@@ -352,26 +406,42 @@ FutureBuilder<List<Map<String, dynamic>>>(
     );
   },
 )
-________________________________________
-📥 Cara Instalasi
-Prerequisites
-•	Flutter SDK ≥ 3.4.3
-•	Dart SDK ≥ 3.0.0
-•	Android Studio / VS Code
-•	Git
-•	Firebase Project (sudah dikonfigurasi)
-Step-by-Step Installation
-1. Clone Repository
-bash
+```
+
+---
+
+## 📥 Cara Instalasi
+
+### Prerequisites
+
+- Flutter SDK ≥ 3.4.3
+- Dart SDK ≥ 3.0.0
+- Android Studio / VS Code
+- Git
+- Firebase Project (sudah dikonfigurasi)
+
+### Step-by-Step Installation
+
+#### 1. Clone Repository
+
+```bash
 git clone https://github.com/YOUR_USERNAME/targetibadah-gamifikasi.git
 cd targetibadah-gamifikasi
-2. Install Dependencies
-bash
+```
+
+#### 2. Install Dependencies
+
+```bash
 flutter pub get
-3. Firebase Setup
-Aplikasi ini sudah dikonfigurasi dengan Firebase. File google-services.json dan firebase_options.dart sudah ada di repository.
+```
+
+#### 3. Firebase Setup
+
+Aplikasi ini sudah dikonfigurasi dengan Firebase. File `google-services.json` dan `firebase_options.dart` sudah ada di repository.
+
 Jika ingin menggunakan Firebase project sendiri:
-bash
+
+```bash
 # Install Firebase CLI
 npm install -g firebase-tools
 
@@ -380,27 +450,38 @@ firebase login
 
 # Configure FlutterFire
 flutterfire configure
-4. Run Application
-Android:
-bash
+```
+
+#### 4. Run Application
+
+**Android:**
+
+```bash
 flutter run
-iOS (Mac only):
-bash
+```
+
+**iOS (Mac only):**
+
+```bash
 cd ios
 pod install
 cd ..
 flutter run
-5. Build APK (Release)
-bash
+```
+
+#### 5. Build APK (Release)
+
+```bash
 flutter build apk --release
 ```
+
 APK akan tersimpan di: `build/app/outputs/flutter-apk/app-release.apk`
 
 ---
 
 ## 📖 Panduan Penggunaan
 
-### 1. **Registrasi & Login**
+### 1. Registrasi & Login
 
 **Buat Akun Baru:**
 - Tap "Daftar Sekarang" di halaman login
@@ -412,110 +493,153 @@ APK akan tersimpan di: `build/app/outputs/flutter-apk/app-release.apk`
 ```
 Email: Nirma@gmail.com
 Password: nirma123
-2. Dashboard (Home)
-•	Jadwal Sholat Card: Menampilkan 5 waktu sholat hari ini dengan countdown real-time
-•	Progress Card: Lihat persentase target harian yang sudah diselesaikan
-•	Kategori Icons: Tap untuk akses fitur spesifik (Sholat/Qur'an/Dzikir/Sedekah)
-•	Daftar Target: Checkbox untuk mark target sebagai selesai
-3. Kelola Target Ibadah
-•	Tap menu "Target" (ikon kalender) di bottom nav
-•	Tambah Target: Tap tombol + → Isi form → Simpan
-•	Edit Target: Tap ikon ⋮ pada target → "Edit"
-•	Hapus Target: Tap ikon ⋮ → "Hapus" → Konfirmasi
-•	Search: Ketik nama target di search bar
-•	Filter: Tap chip kategori untuk filter
-4. Jadwal Sholat
-•	Tap kategori "Sholat" dari Home
-•	Lihat 5 waktu sholat dengan countdown ke sholat berikutnya
-•	Sholat berikutnya ditandai dengan border berwarna dan countdown yang update setiap detik
-•	Ubah Lokasi: Settings → Lokasi → Pilih kota
-5. Tracking Bacaan Al-Qur'an
-•	Tap kategori "Qur'an" dari Home
-•	Browse daftar 114 surah dengan progress bar
-•	Baca Surah: Tap surah → Scroll untuk auto-save progress
-•	Reset Progress: Tap ikon refresh di AppBar
-6. Dzikir Counter
-•	Tap kategori "Dzikir"
-•	Pilih jenis dzikir dari dropdown
-•	Tap tombol + (hijau) untuk increment
-•	Tap tombol - (merah) untuk decrement
-•	Tap tombol ↻ (kuning) untuk reset
-7. Tracking Sedekah
-•	Tap kategori "Sedekah"
-•	Isi jumlah (Rupiah) dan keterangan
-•	Tap "Catat Sedekah"
-•	Hapus: Swipe left pada item history → Konfirmasi
-8. Progress & Gamifikasi
-•	Tap menu "Progress" di bottom nav
-•	Lihat Level & Points saat ini
-•	Streak: Cek konsistensi harian (hari berturut-turut)
-•	Grafik 7 Hari: Bar chart progress mingguan
-•	Statistik Kategori: Progress per jenis ibadah
-•	Achievements: Badge yang sudah di-unlock
-9. Profile
-•	Tap menu "Profile"
-•	Edit Profil: Ubah nama & email
-•	Ubah Password: Ganti password lama dengan baru
-•	Logout: Tap "Keluar" → Konfirmasi
-10. Settings
-•	Tap menu "Settings"
-•	Mode Gelap: Toggle untuk dark/light theme
-•	Notifikasi Sholat: Toggle reminder waktu sholat
-•	Notifikasi Motivasi: Toggle pesan motivasi harian
-•	Lokasi: Pilih kota untuk jadwal sholat
-•	Test Notifikasi: Tap untuk test apakah notifikasi berfungsi
-________________________________________
-🧪 Testing Results
-API Integration Testing
-✅ Prayer Times API
-•	Endpoint Tested: GET /timingsByCity/{date}
-•	Test Cases: 
-o	✅ Berhasil fetch jadwal sholat untuk Jakarta
-o	✅ Berhasil fetch untuk Surabaya
-o	✅ Handle timeout dengan fallback
-o	✅ Parse JSON ke PrayerTime model
-o	✅ Countdown update setiap detik
-•	Screenshot: View Test Results
-✅ Quran API
-•	Endpoint Tested: 
-o	GET /surah (Get all surah)
-o	GET /surah/{number} (Get surah detail)
-•	Test Cases: 
-o	✅ Fetch 114 surah berhasil
-o	✅ Detail surah dengan verses & translation
-o	✅ Progress auto-save saat scroll
-o	✅ Handle empty/error state
-•	Screenshot: View Test Results
-Error Handling Testing
-Scenario	Expected Behavior	Status
-No Internet Connection	Show fallback data + error message	✅ Pass
-API Timeout (>10s)	Trigger fallback mechanism	✅ Pass
-Invalid City Name	Use default Jakarta data	✅ Pass
-Empty API Response	Show "Tidak ada data"	✅ Pass
-HTTP 404/500 Error	Show error message + retry option	✅ Pass
-________________________________________
-👨‍💻 Pengembang
-Nama: Nirma Nur Diana
-NIM: 230605110147
-Mata Kuliah: Mobile Programming
-Dosen Pengampu: A'LA SYAUQI,M.Kom
-Semester: Ganjil 2025/2026
-Universitas: Universitas Islam Negeri Maulana Malik Ibrahim Malang
-Prodi: Teknik Informatika
-________________________________________
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-________________________________________
-🙏 Acknowledgments
-•	Aladhan API - Prayer times data
-•	Quran API by Gading Dev - Al-Qur'an data with Indonesian translation
-•	Firebase - Backend & authentication
-•	Flutter Community - Various packages & plugins
-•	Material Design - UI/UX guidelines
-________________________________________
-📞 Contact
-Jika ada pertanyaan atau feedback, silakan hubungi:
-•	Email: 230605110147@student.uin-malang.ac.id
-•	GitHub: @Nrmadn
-•	LinkedIn: Nirma Nur Diana
+```
 
+### 2. Dashboard (Home)
+
+- **Jadwal Sholat Card**: Menampilkan 5 waktu sholat hari ini dengan countdown real-time
+- **Progress Card**: Lihat persentase target harian yang sudah diselesaikan
+- **Kategori Icons**: Tap untuk akses fitur spesifik (Sholat/Qur'an/Dzikir/Sedekah)
+- **Daftar Target**: Checkbox untuk mark target sebagai selesai
+
+### 3. Kelola Target Ibadah
+
+- Tap menu "Target" (ikon kalender) di bottom nav
+- **Tambah Target**: Tap tombol + → Isi form → Simpan
+- **Edit Target**: Tap ikon ⋮ pada target → "Edit"
+- **Hapus Target**: Tap ikon ⋮ → "Hapus" → Konfirmasi
+- **Search**: Ketik nama target di search bar
+- **Filter**: Tap chip kategori untuk filter
+
+### 4. Jadwal Sholat
+
+- Tap kategori "Sholat" dari Home
+- Lihat 5 waktu sholat dengan countdown ke sholat berikutnya
+- Sholat berikutnya ditandai dengan border berwarna dan countdown yang update setiap detik
+- **Ubah Lokasi**: Settings → Lokasi → Pilih kota
+
+### 5. Tracking Bacaan Al-Qur'an
+
+- Tap kategori "Qur'an" dari Home
+- Browse daftar 114 surah dengan progress bar
+- **Baca Surah**: Tap surah → Scroll untuk auto-save progress
+- **Reset Progress**: Tap ikon refresh di AppBar
+
+### 6. Dzikir Counter
+
+- Tap kategori "Dzikir"
+- Pilih jenis dzikir dari dropdown
+- Tap tombol **+** (hijau) untuk increment
+- Tap tombol **-** (merah) untuk decrement
+- Tap tombol **↻** (kuning) untuk reset
+
+### 7. Tracking Sedekah
+
+- Tap kategori "Sedekah"
+- Isi jumlah (Rupiah) dan keterangan
+- Tap "Catat Sedekah"
+- **Hapus**: Swipe left pada item history → Konfirmasi
+
+### 8. Progress & Gamifikasi
+
+- Tap menu "Progress" di bottom nav
+- Lihat Level & Points saat ini
+- **Streak**: Cek konsistensi harian (hari berturut-turut)
+- **Grafik 7 Hari**: Bar chart progress mingguan
+- **Statistik Kategori**: Progress per jenis ibadah
+- **Achievements**: Badge yang sudah di-unlock
+
+### 9. Profile
+
+- Tap menu "Profile"
+- **Edit Profil**: Ubah nama & email
+- **Ubah Password**: Ganti password lama dengan baru
+- **Logout**: Tap "Keluar" → Konfirmasi
+
+### 10. Settings
+
+- Tap menu "Settings"
+- **Mode Gelap**: Toggle untuk dark/light theme
+- **Notifikasi Sholat**: Toggle reminder waktu sholat
+- **Notifikasi Motivasi**: Toggle pesan motivasi harian
+- **Lokasi**: Pilih kota untuk jadwal sholat
+- **Test Notifikasi**: Tap untuk test apakah notifikasi berfungsi
+
+---
+
+## 🧪 Testing Results
+
+### API Integration Testing
+
+#### ✅ Prayer Times API
+
+- **Endpoint Tested**: `GET /timingsByCity/{date}`
+- **Test Cases**: 
+  - ✅ Berhasil fetch jadwal sholat untuk Jakarta
+  - ✅ Berhasil fetch untuk Surabaya
+  - ✅ Handle timeout dengan fallback
+  - ✅ Parse JSON ke PrayerTime model
+  - ✅ Countdown update setiap detik
+
+#### ✅ Quran API
+
+- **Endpoint Tested**: 
+  - `GET /surah` (Get all surah)
+  - `GET /surah/{number}` (Get surah detail)
+- **Test Cases**: 
+  - ✅ Fetch 114 surah berhasil
+  - ✅ Detail surah dengan verses & translation
+  - ✅ Progress auto-save saat scroll
+  - ✅ Handle empty/error state
+
+### Error Handling Testing
+
+| Scenario | Expected Behavior | Status |
+|----------|------------------|--------|
+| No Internet Connection | Show fallback data + error message | ✅ Pass |
+| API Timeout (>10s) | Trigger fallback mechanism | ✅ Pass |
+| Invalid City Name | Use default Jakarta data | ✅ Pass |
+| Empty API Response | Show "Tidak ada data" | ✅ Pass |
+| HTTP 404/500 Error | Show error message + retry option | ✅ Pass |
+
+---
+
+## 👨‍💻 Pengembang
+
+- **Nama**: Nirma Nur Diana
+- **NIM**: 230605110147
+- **Mata Kuliah**: Mobile Programming
+- **Dosen Pengampu**: A'LA SYAUQI, M.Kom
+- **Semester**: Ganjil 2025/2026
+- **Universitas**: Universitas Islam Negeri Maulana Malik Ibrahim Malang
+- **Prodi**: Teknik Informatika
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- [Aladhan API](https://aladhan.com/prayer-times-api) - Prayer times data
+- [Quran API by Gading Dev](https://github.com/gadingnst/quran-api) - Al-Qur'an data with Indonesian translation
+- [Firebase](https://firebase.google.com/) - Backend & authentication
+- Flutter Community - Various packages & plugins
+- Material Design - UI/UX guidelines
+
+---
+
+## 📞 Contact
+
+Jika ada pertanyaan atau feedback, silakan hubungi:
+
+- **Email**: 230605110147@student.uin-malang.ac.id
+- **GitHub**: [@Nrmadn](https://github.com/Nrmadn)
+- **LinkedIn**: [Nirma Nur Diana](https://linkedin.com/in/nirma-nur-diana)
+
+---
+
+<p align="center">Made with ❤️ by Nirma Nur Diana</p>
