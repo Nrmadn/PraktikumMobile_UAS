@@ -1,0 +1,16 @@
+{
+  "city": "Jakarta",
+  "date": "2025-10-23",
+  "times": {
+    "Subuh": "04:30",
+    "Dhuhur": "12:00",
+    "Ashar": "15:15",
+    "Maghrib": "18:00",
+    "Isya": "19:15"
+  },
+  "nextPrayer": {
+    "name": "Ashar",
+    "time": "15:15",
+    "countdown": "1h 22m"
+  }
+}

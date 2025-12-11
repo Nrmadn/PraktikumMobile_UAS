@@ -1,0 +1,48 @@
+{
+  "dzikirList": [
+    {
+      "id": "subhanallah",
+      "name": "Subhanallah",
+      "arabicText": "سُبْحَانَ اللّٰهِ",
+      "meaning": "Maha Suci Allah",
+      "description": "Dzikir untuk memuji kesucian Allah",
+      "recommendedCount": 33
+    },
+    {
+      "id": "alhamdulillah",
+      "name": "Alhamdulillah",
+      "arabicText": "الْحَمْدُ لِلّٰهِ",
+      "meaning": "Segala puji bagi Allah",
+      "description": "Dzikir untuk bersyukur kepada Allah",
+      "recommendedCount": 33
+    },
+    {
+      "id": "allahu_akbar",
+      "name": "Allahu Akbar",
+      "arabicText": "اللّٰهُ أَكْبَرُ",
+      "meaning": "Allah Maha Besar",
+      "description": "Dzikir untuk mengagungkan Allah",
+      "recommendedCount": 33
+    },
+    {
+      "id": "laa_ilaha_illallah",
+      "name": "Laa ilaha illallah",
+      "arabicText": "لَا إِلٰهَ إِلَّا اللّٰهُ",
+      "meaning": "Tiada tuhan selain Allah",
+      "description": "Kalimat tauhid, dzikir utama",
+      "recommendedCount": 100
+    },
+    {
+      "id": "astaghfirullah",
+      "name": "Astaghfirullah",
+      "arabicText": "أَسْتَغْفِرُ اللّٰهَ",
+      "meaning": "Aku mohon ampun kepada Allah",
+      "description": "Dzikir untuk memohon ampunan",
+      "recommendedCount": 100
+    }
+  ],
+  "benefits": {
+    "title": "Manfaat Dzikir",
+    "description": "Dzikir adalah mengingat Allah dengan hati, lidah, dan perbuatan. Lakukan dzikir secara konsisten untuk menenangkan hati dan mendekatkan diri kepada Allah."
+  }
+}

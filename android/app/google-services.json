@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102953628830",
+    "project_id": "targetibadah-gamifikasi",
+    "storage_bucket": "targetibadah-gamifikasi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102953628830:android:feffa0c0767eee14a2778f",
+        "android_client_info": {
+          "package_name": "com.example.targetibadah_gamifikasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUvw-4VwE5Pjds7eRRr-8yVfZiblprPjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

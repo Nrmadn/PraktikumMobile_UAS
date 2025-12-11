@@ -1,0 +1,99 @@
+{
+  "dailyProgress": [
+    {
+      "day": "Sen",
+      "date": "2025-10-14",
+      "completed": 6,
+      "total": 8,
+      "percentage": 75
+    },
+    {
+      "day": "Sel",
+      "date": "2025-10-15",
+      "completed": 5,
+      "total": 8,
+      "percentage": 62
+    },
+    {
+      "day": "Rab",
+      "date": "2025-10-16",
+      "completed": 7,
+      "total": 8,
+      "percentage": 87
+    },
+    {
+      "day": "Kam",
+      "date": "2025-10-17",
+      "completed": 6,
+      "total": 9,
+      "percentage": 67
+    },
+    {
+      "day": "Jum",
+      "date": "2025-10-18",
+      "completed": 8,
+      "total": 9,
+      "percentage": 89
+    },
+    {
+      "day": "Sab",
+      "date": "2025-10-19",
+      "completed": 7,
+      "total": 8,
+      "percentage": 87
+    },
+    {
+      "day": "Min",
+      "date": "2025-10-20",
+      "completed": 5,
+      "total": 8,
+      "percentage": 62
+    }
+  ],
+  "categoryStats": [
+    {
+      "name": "Sholat",
+      "icon": "mosque",
+      "color": "#4CAF50",
+      "completed": 35,
+      "total": 35,
+      "percentage": 100
+    },
+    {
+      "name": "Qur'an",
+      "icon": "menu_book",
+      "color": "#2196F3",
+      "completed": 18,
+      "total": 21,
+      "percentage": 85
+    },
+    {
+      "name": "Sedekah",
+      "icon": "favorite",
+      "color": "#FF9800",
+      "completed": 12,
+      "total": 14,
+      "percentage": 85
+    },
+    {
+      "name": "Dzikir",
+      "icon": "favorite_border",
+      "color": "#9C27B0",
+      "completed": 20,
+      "total": 28,
+      "percentage": 71
+    }
+  ],
+  "streakInfo": {
+    "currentStreak": 7,
+    "longestStreak": 15,
+    "streakStartDate": "2025-10-14"
+  },
+  "motivationalMessages": [
+    "Terus semangat menjalankan ibadah! Setiap target yang diselesaikan adalah investasi untuk akhirat. Pertahankan streak-mu!",
+    "Konsistensi adalah kunci kesuksesan. Lakukan sedikit demi sedikit tapi rutin.",
+    "Allah mencintai amalan yang kontinyu meski sedikit.",
+    "Hari ini adalah kesempatan baru untuk menjadi lebih baik.",
+    "Setiap langkah kecil menuju Allah sangat berharga."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "surah": [
+    {
+      "id": 1,
+      "name": "Al-Fatihah",
+      "arabicName": "الفاتحة",
+      "verses": 7,
+      "progress": {
+        "completed": 7,
+        "total": 7
+      }
+    },
+    {
+      "id": 2,
+      "name": "Al-Baqarah",
+      "arabicName": "البقرة",
+      "verses": 286,
+      "progress": {
+        "completed": 50,
+        "total": 286
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ali Imran",
+      "arabicName": "آل عمران",
+      "verses": 200,
+      "progress": {
+        "completed": 0,
+        "total": 200
+      }
+    },
+    {
+      "id": 4,
+      "name": "An-Nisa",
+      "arabicName": "النساء",
+      "verses": 176,
+      "progress": {
+        "completed": 0,
+        "total": 176
+      }
+    },
+    {
+      "id": 5,
+      "name": "Al-Maidah",
+      "arabicName": "المائدة",
+      "verses": 120,
+      "progress": {
+        "completed": 0,
+        "total": 120
+      }
+    },
+    {
+      "id": 6,
+      "name": "Al-An'am",
+      "arabicName": "الأنعام",
+      "verses": 165,
+      "progress": {
+        "completed": 0,
+        "total": 165
+      }
+    },
+    {
+      "id": 7,
+      "name": "Al-A'raf",
+      "arabicName": "الأعراف",
+      "verses": 206,
+      "progress": {
+        "completed": 0,
+        "total": 206
+      }
+    }
+  ],
+  "readingTips": {
+    "title": "💡 Tips Membaca",
+    "description": "Target membaca 2-3 halaman setiap hari untuk menyelesaikan Al-Qur'an dalam satu bulan."
+  }
+}

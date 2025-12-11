@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "id": "prayer",
+      "name": "Sholat",
+      "icon": "mosque",
+      "color": "#4CAF50",
+      "description": "Target ibadah sholat wajib dan sunnah"
+    },
+    {
+      "id": "quran",
+      "name": "Qur'an",
+      "icon": "menu_book",
+      "color": "#2196F3",
+      "description": "Target membaca dan menghafal Al-Qur'an"
+    },
+    {
+      "id": "charity",
+      "name": "Sedekah",
+      "icon": "favorite",
+      "color": "#FF9800",
+      "description": "Target berbagi dan bersedekah"
+    },
+    {
+      "id": "dzikir",
+      "name": "Dzikir",
+      "icon": "favorite_border",
+      "color": "#9C27B0",
+      "description": "Target dzikir dan wirid harian"
+    },
+    {
+      "id": "other",
+      "name": "Lainnya",
+      "icon": "task_alt",
+      "color": "#757575",
+      "description": "Target ibadah lainnya"
+    }
+  ]
+}

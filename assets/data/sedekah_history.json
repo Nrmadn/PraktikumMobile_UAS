@@ -1,0 +1,56 @@
+{
+  "history": [
+    {
+      "id": "sed_1",
+      "tanggal": "2025-10-18",
+      "jumlah": 50000,
+      "keterangan": "Sedekah untuk anak yatim",
+      "category": "Yatim Piatu"
+    },
+    {
+      "id": "sed_2",
+      "tanggal": "2025-10-17",
+      "jumlah": 25000,
+      "keterangan": "Sedekah untuk fakir miskin",
+      "category": "Fakir Miskin"
+    },
+    {
+      "id": "sed_3",
+      "tanggal": "2025-10-15",
+      "jumlah": 100000,
+      "keterangan": "Sedekah di masjid",
+      "category": "Masjid"
+    },
+    {
+      "id": "sed_4",
+      "tanggal": "2025-10-12",
+      "jumlah": 20000,
+      "keterangan": "Infaq jum'at",
+      "category": "Masjid"
+    },
+    {
+      "id": "sed_5",
+      "tanggal": "2025-10-10",
+      "jumlah": 35000,
+      "keterangan": "Sedekah makanan",
+      "category": "Umum"
+    }
+  ],
+  "categories": [
+    "Yatim Piatu",
+    "Fakir Miskin",
+    "Masjid",
+    "Pendidikan",
+    "Kesehatan",
+    "Umum"
+  ],
+  "tips": {
+    "title": "💰 Tips Sedekah",
+    "items": [
+      "Sedekah tidak harus banyak, yang penting konsisten",
+      "Niatkan ikhlas karena Allah SWT",
+      "Sedekah dapat menolak bala dan membuka pintu rezeki",
+      "Sedekah terbaik adalah yang dilakukan secara rahasia"
+    ]
+  }
+}

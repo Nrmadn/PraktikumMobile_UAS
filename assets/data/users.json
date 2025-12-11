@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Brian",
+      "email": "Brian@gmail.com",
+      "password": "brian123",
+      "level": 5,
+      "points": 5240,
+      "createdAt": "2025-09-15T08:00:00.000Z",
+      "updatedAt": "2025-10-25T10:30:00.000Z"
+    },
+    {
+      "id": "user_002",
+      "name": "Nirma",
+      "email": "Nirma@gmail.com",
+      "password": "nirma123",
+      "level": 3,
+      "points": 2450,
+      "createdAt": "2025-10-01T09:00:00.000Z",
+      "updatedAt": "2025-10-24T14:20:00.000Z"
+    }
+  ],
+  "metadata": {
+    "lastUserId": 3,
+    "totalUsers": 3,
+    "version": "1.0.0"
+  }
+}

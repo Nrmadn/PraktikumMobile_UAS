@@ -1,0 +1,88 @@
+{
+  "targets": [
+    {
+      "id": "1",
+      "userId": "user1",
+      "name": "Sholat Subuh tepat waktu",
+      "category": "Sholat",
+      "note": "Jangan terlambat",
+      "isCompleted": false,
+      "targetDate": "2025-10-25",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    },
+    {
+      "id": "2",
+      "userId": "user1",
+      "name": "Baca 2 halaman Al-Qur'an",
+      "category": "Qur'an",
+      "note": "Surah At-Taubah",
+      "isCompleted": false,
+      "targetDate": "2025-10-29",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    },
+    {
+      "id": "3",
+      "userId": "user1",
+      "name": "Sedekah minimal Rp5000",
+      "category": "Sedekah",
+      "note": "",
+      "isCompleted": false,
+      "targetDate": "2025-10-27",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    },
+    {
+      "id": "4",
+      "userId": "user1",
+      "name": "Dzikir 100x",
+      "category": "Dzikir",
+      "note": "Subhanallah",
+      "isCompleted": false,
+      "targetDate": "2025-10-26",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    },
+    {
+      "id": "5",
+      "userId": "user1",
+      "name": "Sholat Dhuha 4 rakaat",
+      "category": "Sholat",
+      "note": "Sholat sunnah pagi",
+      "isCompleted": false,
+      "targetDate": "2025-10-30",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    },
+    {
+      "id": "6",
+      "userId": "user1",
+      "name": "Baca Yasin",
+      "category": "Qur'an",
+      "note": "Setelah Maghrib",
+      "isCompleted": false,
+      "targetDate": "2025-11-25",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    },
+    {
+      "id": "7",
+      "userId": "user1",
+      "name": "Infaq masjid",
+      "category": "Sedekah",
+      "note": "Untuk pembangunan masjid",
+      "isCompleted": false,
+      "targetDate": "2025-10-25",
+      "createdAt": "2025-10-23T00:00:00.000Z",
+      "updatedAt": "2025-10-23T00:00:00.000Z",
+      "completedAt": null
+    }
+  ]
+}

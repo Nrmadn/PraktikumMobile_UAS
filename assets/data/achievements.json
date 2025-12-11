@@ -1,0 +1,70 @@
+{
+  "achievements": [
+    {
+      "id": "streak_7",
+      "title": "7 Hari Berturut-turut",
+      "description": "Selesaikan target 7 hari berturut-turut",
+      "icon": "local_fire_department",
+      "color": "#FF5722",
+      "points": 100,
+      "unlocked": true,
+      "unlockedDate": "2025-10-15"
+    },
+    {
+      "id": "prayer_master",
+      "title": "Rajin Sholat",
+      "description": "Selesaikan 30 target sholat",
+      "icon": "mosque",
+      "color": "#4CAF50",
+      "points": 150,
+      "unlocked": true,
+      "unlockedDate": "2025-10-10"
+    },
+    {
+      "id": "quran_lover",
+      "title": "Pecinta Qur'an",
+      "description": "Baca Al-Qur'an 20 hari",
+      "icon": "menu_book",
+      "color": "#2196F3",
+      "points": 200,
+      "unlocked": false,
+      "unlockedDate": null
+    },
+    {
+      "id": "generous",
+      "title": "Dermawan",
+      "description": "Sedekah 15 kali",
+      "icon": "favorite",
+      "color": "#FF9800",
+      "points": 150,
+      "unlocked": false,
+      "unlockedDate": null
+    },
+    {
+      "id": "dzikir_master",
+      "title": "Ahli Dzikir",
+      "description": "Dzikir 1000 kali total",
+      "icon": "favorite_border",
+      "color": "#9C27B0",
+      "points": 200,
+      "unlocked": false,
+      "unlockedDate": null
+    },
+    {
+      "id": "streak_30",
+      "title": "Konsisten 30 Hari",
+      "description": "Selesaikan target 30 hari berturut-turut",
+      "icon": "emoji_events",
+      "color": "#FFD700",
+      "points": 500,
+      "unlocked": false,
+      "unlockedDate": null
+    }
+  ],
+  "pointsSystem": {
+    "completeTarget": 10,
+    "completeAllDaily": 50,
+    "streak7Days": 100,
+    "unlockAchievement": 50
+  }
+}
